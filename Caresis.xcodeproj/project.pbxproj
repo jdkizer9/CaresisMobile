@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48099AD41AD9C69500E4555E /* CSAppointmentsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AD31AD9C69500E4555E /* CSAppointmentsTVC.m */; };
+		48099AD71AD9CDAD00E4555E /* CSAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AD61AD9CDAD00E4555E /* CSAppointmentViewController.m */; };
+		48099ADF1ADA053500E4555E /* CSAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099ADE1ADA053500E4555E /* CSAppointment.m */; };
+		48099AE21ADA05CC00E4555E /* CSPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AE11ADA05CC00E4555E /* CSPatient.m */; };
+		48099AE51ADA05D800E4555E /* CSAdvocate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AE41ADA05D800E4555E /* CSAdvocate.m */; };
+		48099AE81ADA05E700E4555E /* CSStatusUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AE71ADA05E700E4555E /* CSStatusUpdate.m */; };
+		48099AEC1ADA0AFC00E4555E /* CSAdvocateService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AEB1ADA0AFC00E4555E /* CSAdvocateService.m */; };
+		48099AEF1ADA0B0C00E4555E /* CSPatientService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AEE1ADA0B0C00E4555E /* CSPatientService.m */; };
+		48099AF21ADA0B4600E4555E /* CSAppointmentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48099AF11ADA0B4600E4555E /* CSAppointmentService.m */; };
+		484C189C1AD9AE4200C4330A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C189B1AD9AE4200C4330A /* main.m */; };
+		484C189F1AD9AE4200C4330A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C189E1AD9AE4200C4330A /* AppDelegate.m */; };
+		484C18A21AD9AE4200C4330A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C18A11AD9AE4200C4330A /* ViewController.m */; };
+		484C18A51AD9AE4200C4330A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484C18A31AD9AE4200C4330A /* Main.storyboard */; };
+		484C18A71AD9AE4200C4330A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484C18A61AD9AE4200C4330A /* Images.xcassets */; };
+		484C18AA1AD9AE4200C4330A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484C18A81AD9AE4200C4330A /* LaunchScreen.xib */; };
+		484C18B61AD9AE4200C4330A /* CaresisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C18B51AD9AE4200C4330A /* CaresisTests.m */; };
+		5FF0E6B27D53D36AFFED0555 /* libPods-CaresisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5B1655A1A952865D6DE0FC /* libPods-CaresisTests.a */; };
+		607DFCFFBF4262157DB44B1F /* libPods-Caresis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBF1B982DCC79744EB02E49 /* libPods-Caresis.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		484C18B01AD9AE4200C4330A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484C188E1AD9AE4100C4330A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484C18951AD9AE4100C4330A;
+			remoteInfo = Caresis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B559F1838A500D4F98DAAAC /* Pods-CaresisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaresisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaresisTests/Pods-CaresisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48099AD21AD9C69500E4555E /* CSAppointmentsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppointmentsTVC.h; sourceTree = "<group>"; };
+		48099AD31AD9C69500E4555E /* CSAppointmentsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppointmentsTVC.m; sourceTree = "<group>"; };
+		48099AD51AD9CDAD00E4555E /* CSAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppointmentViewController.h; sourceTree = "<group>"; };
+		48099AD61AD9CDAD00E4555E /* CSAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppointmentViewController.m; sourceTree = "<group>"; };
+		48099ADD1ADA053500E4555E /* CSAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppointment.h; sourceTree = "<group>"; };
+		48099ADE1ADA053500E4555E /* CSAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppointment.m; sourceTree = "<group>"; };
+		48099AE01ADA05CC00E4555E /* CSPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPatient.h; sourceTree = "<group>"; };
+		48099AE11ADA05CC00E4555E /* CSPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPatient.m; sourceTree = "<group>"; };
+		48099AE31ADA05D800E4555E /* CSAdvocate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAdvocate.h; sourceTree = "<group>"; };
+		48099AE41ADA05D800E4555E /* CSAdvocate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAdvocate.m; sourceTree = "<group>"; };
+		48099AE61ADA05E700E4555E /* CSStatusUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStatusUpdate.h; sourceTree = "<group>"; };
+		48099AE71ADA05E700E4555E /* CSStatusUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStatusUpdate.m; sourceTree = "<group>"; };
+		48099AEA1ADA0AFC00E4555E /* CSAdvocateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAdvocateService.h; sourceTree = "<group>"; };
+		48099AEB1ADA0AFC00E4555E /* CSAdvocateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAdvocateService.m; sourceTree = "<group>"; };
+		48099AED1ADA0B0C00E4555E /* CSPatientService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPatientService.h; sourceTree = "<group>"; };
+		48099AEE1ADA0B0C00E4555E /* CSPatientService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPatientService.m; sourceTree = "<group>"; };
+		48099AF01ADA0B4600E4555E /* CSAppointmentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppointmentService.h; sourceTree = "<group>"; };
+		48099AF11ADA0B4600E4555E /* CSAppointmentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppointmentService.m; sourceTree = "<group>"; };
+		484C18961AD9AE4200C4330A /* Caresis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caresis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484C189A1AD9AE4200C4330A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484C189B1AD9AE4200C4330A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		484C189D1AD9AE4200C4330A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		484C189E1AD9AE4200C4330A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		484C18A01AD9AE4200C4330A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		484C18A11AD9AE4200C4330A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		484C18A41AD9AE4200C4330A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484C18A61AD9AE4200C4330A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		484C18A91AD9AE4200C4330A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		484C18AF1AD9AE4200C4330A /* CaresisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaresisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		484C18B41AD9AE4200C4330A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484C18B51AD9AE4200C4330A /* CaresisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaresisTests.m; sourceTree = "<group>"; };
+		671691B9753E63CB8AAA1D24 /* Pods-Caresis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caresis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caresis/Pods-Caresis.debug.xcconfig"; sourceTree = "<group>"; };
+		773EFF2D84579216A849B40F /* Pods-CaresisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaresisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaresisTests/Pods-CaresisTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DBF1B982DCC79744EB02E49 /* libPods-Caresis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Caresis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949A3B5B95D1BCDF21EE967E /* Pods-Caresis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caresis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caresis/Pods-Caresis.release.xcconfig"; sourceTree = "<group>"; };
+		9B5B1655A1A952865D6DE0FC /* libPods-CaresisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaresisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484C18931AD9AE4100C4330A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607DFCFFBF4262157DB44B1F /* libPods-Caresis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484C18AC1AD9AE4200C4330A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF0E6B27D53D36AFFED0555 /* libPods-CaresisTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48099AD11AD9C65F00E4555E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				48099AD21AD9C69500E4555E /* CSAppointmentsTVC.h */,
+				48099AD31AD9C69500E4555E /* CSAppointmentsTVC.m */,
+				48099AD51AD9CDAD00E4555E /* CSAppointmentViewController.h */,
+				48099AD61AD9CDAD00E4555E /* CSAppointmentViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48099AD91ADA048C00E4555E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48099ADD1ADA053500E4555E /* CSAppointment.h */,
+				48099ADE1ADA053500E4555E /* CSAppointment.m */,
+				48099AE31ADA05D800E4555E /* CSAdvocate.h */,
+				48099AE41ADA05D800E4555E /* CSAdvocate.m */,
+				48099AE61ADA05E700E4555E /* CSStatusUpdate.h */,
+				48099AE71ADA05E700E4555E /* CSStatusUpdate.m */,
+				48099AE01ADA05CC00E4555E /* CSPatient.h */,
+				48099AE11ADA05CC00E4555E /* CSPatient.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		48099AE91ADA0AC800E4555E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48099AEA1ADA0AFC00E4555E /* CSAdvocateService.h */,
+				48099AEB1ADA0AFC00E4555E /* CSAdvocateService.m */,
+				48099AED1ADA0B0C00E4555E /* CSPatientService.h */,
+				48099AEE1ADA0B0C00E4555E /* CSPatientService.m */,
+				48099AF01ADA0B4600E4555E /* CSAppointmentService.h */,
+				48099AF11ADA0B4600E4555E /* CSAppointmentService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		484C188D1AD9AE4100C4330A = {
+			isa = PBXGroup;
+			children = (
+				484C18981AD9AE4200C4330A /* Caresis */,
+				484C18B21AD9AE4200C4330A /* CaresisTests */,
+				484C18971AD9AE4200C4330A /* Products */,
+				B8CB3DB930D0FE815AA6F23A /* Pods */,
+				6943F2CB3F41DAA7E6E46DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		484C18971AD9AE4200C4330A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484C18961AD9AE4200C4330A /* Caresis.app */,
+				484C18AF1AD9AE4200C4330A /* CaresisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484C18981AD9AE4200C4330A /* Caresis */ = {
+			isa = PBXGroup;
+			children = (
+				484C189D1AD9AE4200C4330A /* AppDelegate.h */,
+				484C189E1AD9AE4200C4330A /* AppDelegate.m */,
+				484C18A01AD9AE4200C4330A /* ViewController.h */,
+				484C18A11AD9AE4200C4330A /* ViewController.m */,
+				48099AD11AD9C65F00E4555E /* ViewControllers */,
+				48099AD91ADA048C00E4555E /* Models */,
+				48099AE91ADA0AC800E4555E /* Services */,
+				484C18A31AD9AE4200C4330A /* Main.storyboard */,
+				484C18A61AD9AE4200C4330A /* Images.xcassets */,
+				484C18A81AD9AE4200C4330A /* LaunchScreen.xib */,
+				484C18991AD9AE4200C4330A /* Supporting Files */,
+			);
+			path = Caresis;
+			sourceTree = "<group>";
+		};
+		484C18991AD9AE4200C4330A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				484C189A1AD9AE4200C4330A /* Info.plist */,
+				484C189B1AD9AE4200C4330A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		484C18B21AD9AE4200C4330A /* CaresisTests */ = {
+			isa = PBXGroup;
+			children = (
+				484C18B51AD9AE4200C4330A /* CaresisTests.m */,
+				484C18B31AD9AE4200C4330A /* Supporting Files */,
+			);
+			path = CaresisTests;
+			sourceTree = "<group>";
+		};
+		484C18B31AD9AE4200C4330A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				484C18B41AD9AE4200C4330A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6943F2CB3F41DAA7E6E46DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DBF1B982DCC79744EB02E49 /* libPods-Caresis.a */,
+				9B5B1655A1A952865D6DE0FC /* libPods-CaresisTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8CB3DB930D0FE815AA6F23A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				671691B9753E63CB8AAA1D24 /* Pods-Caresis.debug.xcconfig */,
+				949A3B5B95D1BCDF21EE967E /* Pods-Caresis.release.xcconfig */,
+				2B559F1838A500D4F98DAAAC /* Pods-CaresisTests.debug.xcconfig */,
+				773EFF2D84579216A849B40F /* Pods-CaresisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484C18951AD9AE4100C4330A /* Caresis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484C18B91AD9AE4200C4330A /* Build configuration list for PBXNativeTarget "Caresis" */;
+			buildPhases = (
+				63DEE83DF7FEB79A7D389973 /* Check Pods Manifest.lock */,
+				484C18921AD9AE4100C4330A /* Sources */,
+				484C18931AD9AE4100C4330A /* Frameworks */,
+				484C18941AD9AE4100C4330A /* Resources */,
+				C9AF7D8F57FA2CDEF8400AFB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caresis;
+			productName = Caresis;
+			productReference = 484C18961AD9AE4200C4330A /* Caresis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484C18AE1AD9AE4200C4330A /* CaresisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484C18BC1AD9AE4200C4330A /* Build configuration list for PBXNativeTarget "CaresisTests" */;
+			buildPhases = (
+				BDB8890DFC5B056955D15656 /* Check Pods Manifest.lock */,
+				484C18AB1AD9AE4200C4330A /* Sources */,
+				484C18AC1AD9AE4200C4330A /* Frameworks */,
+				484C18AD1AD9AE4200C4330A /* Resources */,
+				E72520DE6222695D7C76D654 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484C18B11AD9AE4200C4330A /* PBXTargetDependency */,
+			);
+			name = CaresisTests;
+			productName = CaresisTests;
+			productReference = 484C18AF1AD9AE4200C4330A /* CaresisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484C188E1AD9AE4100C4330A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Caresis;
+				TargetAttributes = {
+					484C18951AD9AE4100C4330A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					484C18AE1AD9AE4200C4330A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 484C18951AD9AE4100C4330A;
+					};
+				};
+			};
+			buildConfigurationList = 484C18911AD9AE4100C4330A /* Build configuration list for PBXProject "Caresis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484C188D1AD9AE4100C4330A;
+			productRefGroup = 484C18971AD9AE4200C4330A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484C18951AD9AE4100C4330A /* Caresis */,
+				484C18AE1AD9AE4200C4330A /* CaresisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484C18941AD9AE4100C4330A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484C18A51AD9AE4200C4330A /* Main.storyboard in Resources */,
+				484C18AA1AD9AE4200C4330A /* LaunchScreen.xib in Resources */,
+				484C18A71AD9AE4200C4330A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484C18AD1AD9AE4200C4330A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63DEE83DF7FEB79A7D389973 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB8890DFC5B056955D15656 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9AF7D8F57FA2CDEF8400AFB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caresis/Pods-Caresis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72520DE6222695D7C76D654 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaresisTests/Pods-CaresisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484C18921AD9AE4100C4330A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484C18A21AD9AE4200C4330A /* ViewController.m in Sources */,
+				484C189F1AD9AE4200C4330A /* AppDelegate.m in Sources */,
+				48099AD71AD9CDAD00E4555E /* CSAppointmentViewController.m in Sources */,
+				48099ADF1ADA053500E4555E /* CSAppointment.m in Sources */,
+				48099AE51ADA05D800E4555E /* CSAdvocate.m in Sources */,
+				484C189C1AD9AE4200C4330A /* main.m in Sources */,
+				48099AEC1ADA0AFC00E4555E /* CSAdvocateService.m in Sources */,
+				48099AF21ADA0B4600E4555E /* CSAppointmentService.m in Sources */,
+				48099AE21ADA05CC00E4555E /* CSPatient.m in Sources */,
+				48099AE81ADA05E700E4555E /* CSStatusUpdate.m in Sources */,
+				48099AD41AD9C69500E4555E /* CSAppointmentsTVC.m in Sources */,
+				48099AEF1ADA0B0C00E4555E /* CSPatientService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484C18AB1AD9AE4200C4330A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484C18B61AD9AE4200C4330A /* CaresisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		484C18B11AD9AE4200C4330A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484C18951AD9AE4100C4330A /* Caresis */;
+			targetProxy = 484C18B01AD9AE4200C4330A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		484C18A31AD9AE4200C4330A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484C18A41AD9AE4200C4330A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484C18A81AD9AE4200C4330A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484C18A91AD9AE4200C4330A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484C18B71AD9AE4200C4330A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		484C18B81AD9AE4200C4330A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484C18BA1AD9AE4200C4330A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671691B9753E63CB8AAA1D24 /* Pods-Caresis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caresis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		484C18BB1AD9AE4200C4330A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949A3B5B95D1BCDF21EE967E /* Pods-Caresis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caresis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		484C18BD1AD9AE4200C4330A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B559F1838A500D4F98DAAAC /* Pods-CaresisTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CaresisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caresis.app/Caresis";
+			};
+			name = Debug;
+		};
+		484C18BE1AD9AE4200C4330A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773EFF2D84579216A849B40F /* Pods-CaresisTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CaresisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caresis.app/Caresis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484C18911AD9AE4100C4330A /* Build configuration list for PBXProject "Caresis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484C18B71AD9AE4200C4330A /* Debug */,
+				484C18B81AD9AE4200C4330A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484C18B91AD9AE4200C4330A /* Build configuration list for PBXNativeTarget "Caresis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484C18BA1AD9AE4200C4330A /* Debug */,
+				484C18BB1AD9AE4200C4330A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484C18BC1AD9AE4200C4330A /* Build configuration list for PBXNativeTarget "CaresisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484C18BD1AD9AE4200C4330A /* Debug */,
+				484C18BE1AD9AE4200C4330A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484C188E1AD9AE4100C4330A /* Project object */;
+}
